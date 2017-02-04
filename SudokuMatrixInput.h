@@ -8,8 +8,10 @@
 #ifndef SUDOKUMATRIXINPUT_H_
 #define SUDOKUMATRIXINPUT_H_
 
-#include <QtGui>
 #include "SudokuMatrixWidget.h"
+
+#include <QLineEdit>
+#include <QPainter>
 
 class SudokuMatrixInput : public SudokuMatrixWidget {
 	Q_OBJECT;

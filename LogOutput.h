@@ -8,9 +8,10 @@
 #ifndef LOGOUTPUT_H_
 #define LOGOUTPUT_H_
 
-#include <QtGui>
-
 #include "qdebugstream.h"
+
+#include <QPushButton>
+#include <QBoxLayout>
 
 class LogOutput : public QWidget {
 	Q_OBJECT;

@@ -1,0 +1,12 @@
+# the binary
+SudokuGUI
+
+# needed to generate Makefile
+SudokuGUI.pro
+.qmake.stash
+
+# GNU make
+Makefile
+
+# dir for temporary objects
+_obj/*

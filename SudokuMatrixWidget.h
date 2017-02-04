@@ -8,7 +8,10 @@
 #ifndef SUDOKUMATRIXWIDGET_H_
 #define SUDOKUMATRIXWIDGET_H_
 
-#include <QtGui>
+#include <QWidget>
+#include <QPushButton>
+#include <QBoxLayout>
+#include <QPainter>
 #include <cstring>
 #include <sstream>
 #include "Sudoku/SudokuMap.h"

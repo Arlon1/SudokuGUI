@@ -10,13 +10,6 @@
 #include <cstring>
 #include <sstream>
 
-int CharToInt(const char &c){
-	std::stringstream ss;
-	ss<<c;
-	int i;
-	ss>>i;
-	return i;
-}
-
+int CharToInt(const char &c);
 
 #endif /* TOOLS_H_ */

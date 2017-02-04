@@ -8,14 +8,13 @@
 #ifndef MAINWINDOW_H_
 #define MAINWINDOW_H_
 
-#include <QtGui>
 #include "SMatrixManipulator.h"
 #include "Sudoku/SudokuMap.h"
 #include "InputWindow.h"
 #include "OptionWindow.h"
 #include "LogOutput.h"
 
-
+#include <QMessageBox>
 
 class MainWindow : public QWidget{
 	Q_OBJECT;

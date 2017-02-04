@@ -7,7 +7,13 @@
 
 #ifndef OPTIONWINDOW_H_
 #define OPTIONWINDOW_H_
-#include <QtGui>
+
+#include <QGroupBox>
+#include <QCheckBox>
+#include <QPushButton>
+#include <QBoxLayout>
+#include <QLineEdit>
+#include <QLabel>
 
 class OptionWindow : public QWidget{
 	Q_OBJECT;
